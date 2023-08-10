@@ -4,26 +4,32 @@ Make sure following utils are installed on your machine
 
 Virtualenv
 ```
-- pip3 install virtualenv
+pip3 install virtualenv
 ```
 
 Setuptools
 ```
-- pip3 install setuptools
+pip3 install setuptools
 ```
 
 pipreqs
-- pip3 install pipreqs
+```
+pip3 install pipreqs
+```
 
 Create Virtual Environment
-- virtualenv virtualEnvmt -p python3.10
+```
+virtualenv virtualEnvmt -p python3.10
+```
 
 Activate virtual Environment
-- source virtualEnvmt/bin/activate
+```
+source virtualEnvmt/bin/activate
 OR
-- .\virtualEnvmt\Scropts\activate (on windows)
+.\virtualEnvmt\Scropts\activate (on windows)
+```
 
-# Python packages
+# Project packages
 
 - pip install pandas
 - pip install pyarrow
